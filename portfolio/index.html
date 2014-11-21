@@ -1,14 +1,54 @@
-<h1>Don't Look at this (Yet), it is a work in progress</h1>
-Projects
-Telemetry Application, Oregon State Solar Vehicle Team	Current
-Demo: telemetry.cloud.hoeft.me (may take down soon)	Source: github.com/OSUSVT/osusvt-telemetry
-Application built using Flask Framework and SQLAlchemy, to display live data from MySQL database. Interface built using the Twitter Bootstrap. Map made using Google Maps API and graphs are rendered using the HighCharts API by using Ajax to fetch data encoded in json. Asynchronous loading allows the display of a large amount of data, currently tested up to 300,000 data points.
-Epic Photography, CS 195 Web Authoring	Winter 2014
-Site: people.oregonstate.edu/~hoeftc/epic	Source: github.com/haroldhues/CS195-Website
-Built on top of HTML5 Bootstrap and normalize.css, otherwise all php, html, and css was written by me. Features an image rich website that uses, a set of text files read by php to populate the metadata for the photos in the website. All images are optimized by size, website obeys best practices.
-Website, Kopacz Nursery & Florist	Current
-Site: kopacznurseryflorist.com 
-Website built using WordPress, theme modified from a great GPL theme. Optimized for SEO.
-Student Information, CS 275 Databases and Web Applications	Fall 2014
-Site: web.engr.oregonstate.edu/~hoeftc/cs275ass1 
-Simple form built in an afternoon using PHP and MySQL, styled with Bootstrap.
+<html>
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
+        <link href="css/material-wfont.min.css" rel="stylesheet">
+    </head>
+    <body>
+		<header style="background: #795548; box-shadow:0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16); margin-bottom: 30px;">
+            <div style="padding-top:30px; padding-bottom:30px;" class="container">
+				<h1 style="color: #fff">Cody Ray Hoeft</h1>
+				<p class="lead" style="color: #CCC"> Here are some of web site and web application creations. Thanks for checking out my work!</p>
+			</div>
+		</header>
+        <div class="container">
+            <div class="project jumbotron">
+                <h2>Telemetry Application<small> Oregon State Solar Vehicle Team</small></h2>
+				<hr>
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <img class="img-responsive" src="http://placehold.it/800x800">
+                    </div>
+                    <div class="col-md-6 col-md-pull-6">
+                        Demo: telemetry.cloud.hoeft.me (may take down soon)	Source: github.com/OSUSVT/osusvt-telemetry
+                            Current
+                        Application built using Flask Framework and SQLAlchemy, to display live data from MySQL database. Interface built using the Twitter Bootstrap. Map made using Google Maps API and graphs are rendered using the HighCharts API by using Ajax to fetch data encoded in json. Asynchronous loading allows the display of a large amount of data, currently tested up to 300,000 data points.
+                    </div>
+                </div>
+            </div>
+            <div class="project jumbotron">
+                <h2>Epic Photography<small> CS 195 Web Authoring</small></h2>
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <img class="img-responsive" src="http://placehold.it/800x800">
+                    </div>
+                    <div class="col-md-6 col-md-pull-6">
+                        Site: people.oregonstate.edu/~hoeftc/epic	Source: github.com/haroldhues/CS195-Website
+        Winter 2014
+                        Built on top of HTML5 Bootstrap and normalize.css, otherwise all php, html, and css was written by me. Features an image rich website that uses, a set of text files read by php to populate the metadata for the photos in the website. All images are optimized by size, website obeys best practices.
+                    </div>
+                </div>
+            </div>
+            <div class="project jumbotron">
+                <h2>Kopacz Nursery &amp; Florist</h2>	Current
+                Site: kopacznurseryflorist.com 
+                Website built using WordPress, theme modified from a great GPL theme. Optimized for SEO.
+            </div>
+            <div class="project jumbotron">
+                <h2>Student Information<small> CS 275 Databases and Web Applications	Fall 2014</h2>
+                Site: web.engr.oregonstate.edu/~hoeftc/cs275ass1 
+                Simple form built in an afternoon using PHP and MySQL, styled with Bootstrap.
+            </div>
+        </div>
+    </body>
+</html>
